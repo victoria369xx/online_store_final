@@ -1,0 +1,310 @@
+.header {
+    height: 100px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.17);
+    border: solid 1px #ececec;
+    background-color: #ffffff;
+  }
+  .header-flex {
+      display: flex;
+      justify-content: space-between;
+  }
+  .header-left {
+      display: flex;
+      height: 100px;
+  }
+  
+  
+  .logo>img {
+      display: block;
+      padding-top: 25px;
+      box-sizing: border-box;
+  }
+  .logo {
+      text-decoration: none; 
+      display: block;
+      display: flex;
+  }
+  .logo>.logo-text {
+      display: block;
+      font-family: Lato;
+      font-size: 27px;
+      font-weight: 300;
+      line-height: 1.19;
+      letter-spacing: 0.68px;
+      text-align: center;
+      color: #222222;
+      padding-top: 45px;
+      box-sizing: border-box;
+  } 
+  .header-form {
+      display: flex;
+      margin-left: 40px;
+      height: 38px;
+      padding-top: 45px;
+      padding-left: 37px;
+      border-radius: 5px;
+     
+  }
+  
+  
+  .browse>summary {
+      height: 36px;
+      font-family: Lato;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 2.29;
+      letter-spacing: 0.35px;
+      padding: 0 15px;
+      color: #222222;
+      border: solid 1px #e6e6e6;
+      background-color:#e6e6e6;
+      box-sizing: border-box;
+      transition: 0.8s;
+  }
+  .browse>summary:hover {
+      background-color:#f16d7f;
+      color:  #ffffff ;
+      box-shadow: inset 0 0 0 1px #f16d7f;
+  }
+  .browse-box {
+      background-color: #fff;
+      position: relative;
+      z-index: 2;
+      width:250px;
+      
+  }
+  .browse-box:first-of-type:before {
+      content: "";
+      display: block;
+      width: 12px;
+      height: 12px;
+      background-color:  #fff;
+      position: absolute;
+      top: -6px;
+      left: 36px;
+      transform: rotate(45deg);
+      border-left: 1px solid #4f4f4f;
+      border-top:1px solid #4f4f4f;
+  }
+  .browse-box:last-of-type {
+      padding-bottom: 20px;
+  }
+  .browse-heading {
+      padding-top: 20px;
+      padding-left: 20px;
+      border-bottom: 1px solid #e8e8e8;
+      font-family: Lato;
+      font-size: 14px;
+      color: #232323;
+  }
+  .browse-list {
+      list-style-type: none;
+      padding-left: 20px;
+      padding-top: 15px;
+  }
+  .browse-link {
+      text-decoration: none;
+      font-family: Lato;
+      font-size: 14px;
+      color:#4f4f4f;
+  }
+  .browse-link:hover {
+      color: #f16d7f;
+  }
+  
+  .search_text {
+      padding-left: 10px;
+      box-sizing: border-box;
+      height: 38px;
+      
+  }
+  .search {
+      padding: 12px;
+      margin-left: 0.5px;
+      color: #222222;
+      border: solid 0.2px #e6e6e6;
+      background-color:#e6e6e6;
+      width: 38px;
+      height: 38px;
+      transition: 0.8s;
+  }
+  
+  
+  .search:hover {
+      background-color:#f16d7f;
+      color:  #ffffff ;
+      box-shadow: inset 0 0 0 1px #f16d7f;
+  }
+  
+  .header-right {
+      display: flex;
+      margin-right: 50px;
+      height: 100px;
+  }
+  .header-right>img {
+      width: 31px;
+      height: 31px;
+      padding-right: 26px;
+      padding-top: 45px;
+  }
+  .my-account>summary {
+    height: 38px;
+    font-family: Lato;
+    font-size: 15px;
+    line-height: 2.13;
+    letter-spacing: 0.38px;
+    margin-top: 45px;
+    border-radius: 1px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    color: #222222;
+   border: solid 1px #e6e6e6;
+   background-color:#e6e6e6;
+   transition: 0.8s;
+  
+  }
+  .cart_box__menu {
+      position: absolute;
+      top:45px;
+      left: 69%;
+  }
+  .cart_box__menu-dropdown {
+      position: relative;
+      right: 40px;
+      z-index: 2;
+      display: none;
+  }
+  .cart_box__menu:hover .cart_box__menu-dropdown {
+      display: block;
+  }
+  .cart_box {
+      background-color: #fff;
+      margin-top: 32px;
+      width:250px;
+  }
+  .cart_box:before {
+      content: "";
+      display: block;
+      width: 12px;
+      height: 12px;
+      background-color:  #fff;
+      position: absolute;
+      top: -6px;
+      left: 36px;
+      transform: rotate(45deg);
+      border-left: 1px solid #4f4f4f;
+      border-top:1px solid #4f4f4f;
+  }
+  .cart_box:last-child {
+      padding-bottom: 20px;
+  }
+  .cart_item {
+      display: flex;
+      width:262px;
+      padding-top:20px;
+  }
+  
+  .cart_img {
+      margin-left: 17px;
+  }
+  
+  .cart_text {
+      padding-left: 50px;
+      padding-right: 14px;
+      font-family: Lato;
+      font-size: 12px;
+      font-weight: bold;
+      color: #222222;
+  
+  }
+  .total_cart {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+  }
+  .total_cart__text {
+      font-family: Lato;
+      font-size: 14px;
+      font-weight: bold;
+      color: #222222;
+      text-transform: uppercase;
+      }
+  .total_buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .cart_button {
+      display: block;
+      margin-top: 20px;
+      padding: 10px 15px;
+      width: 150px;
+      border: 1px solid #e1e1e1;
+      color: #222224;
+      box-sizing: border-box;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-family: Lato;
+      font-size: 14px;
+      font-weight: bold;
+      transition: 0.8s;
+  }
+  .cart_button:hover {
+      color:#f16d7f;
+      border-color: #f16d7f;
+  }
+  
+  .my-account>summary:hover {
+      background-color:#f16d7f;
+      color:  #ffffff ;
+      box-shadow: inset 0 0 0 1px #f16d7f;
+  }
+   summary {
+      display: block;
+    }
+    
+   summary::-webkit-details-marker {
+      display: none;
+    }
+    
+    summary::after {
+      content: '\25B6';
+      padding-left: 5px;
+    }
+  
+    details[open] > summary::after {
+      content: '\25BC';
+    }
+  
+    .my-account {
+      background-color: #fff;
+      z-index: 2;
+    }
+    
+  .my_account__form {
+      display: flex;
+      flex-direction: column;
+      background-color: #fff;
+      z-index: 2;
+      padding: 20px 10px 10px;
+      
+  }
+  .my_account__input {
+      margin-top: 10px;
+  }
+  .my_account__buttons-flex {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+      font-family: Lato;
+      font-size: 12px;
+      text-transform: uppercase;
+  }
+  .my_account__button{
+      padding: 10px;
+  }
+  .my_account__button:hover {
+      background-color: #f16d7f;
+      color: #fff;
+  }

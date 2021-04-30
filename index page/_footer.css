@@ -1,0 +1,77 @@
+
+.footer_flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+.brand_disc {
+    margin-top: 40px;
+    width: 427px;
+    font-family: Lato;
+   font-size: 14px;
+   font-weight: 300;
+   color: #898989;
+}
+
+.footer_section {
+    margin-top: 40px;
+}
+.footer_heading {
+    font-family: Lato;
+  font-size: 18px;
+  font-weight: bold;
+  color: #f16d7f;
+}
+.footer_list {
+    list-style-type: none;
+    padding-top: 25px;
+}
+
+.footer_link {
+    text-decoration: none;
+    color: #898989;
+    
+}
+.footer_link:hover {
+    color: #f16d7f;
+}
+
+.second_footer {
+    height: 80px;
+    margin-top: 90px;
+    background-color:#e6e6e6 ;
+}
+.copyright-flex {
+    padding-top: 40px;
+    box-sizing: border-box;
+    display: flex;
+ justify-content: space-between;
+}
+.copyright {
+    color: #7a7a7a;
+}
+
+
+.network_icons>ul {
+    display: block;
+    display: flex;
+    
+}
+.icon_list {
+    padding-right: 8px;
+    list-style-type: none;
+}
+.icon_link {
+    display: block;
+    background-color: #fff;
+}
+.icon_link {
+    background-color: #fff;
+    color: #b2b2b2;
+    padding: 8px;
+}
+.icon_link:hover{
+    color: #fff;
+    background-color: #f16d7f;
+}

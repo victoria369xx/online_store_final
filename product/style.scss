@@ -1,0 +1,138 @@
+@import url(_header.css);
+@import url(_menu.css);
+@import url(_breadcrump.css);
+@import url(_product.css);
+@import url(_banner_bottom.css);
+@import url(_subscribe.css);
+@import url(_footer.css);
+
+* {
+    margin:0;
+    padding: 0;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+.content_flex {
+    display: flex;
+    margin-top: 71px;
+}
+.content_left__nav {
+    width: 152px;
+}
+.products__summary {
+    padding-left: 11px;
+    border-left: 5px solid #ef5b70;
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 14px;
+    color: #6f6e6e;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ebebeb;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+summary {
+    display: block;
+  }
+  
+    summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  summary::after {
+    content: '\25B6';
+    padding-left: 40px;
+    color: #6f6e6e;
+  }
+  
+  details[open] > summary::after {
+    content: '\25BC';
+    color: #6f6e6e;
+  }
+  .summary__brand::after {
+    content: '\25B6';
+    padding-left: 60px;
+  }
+    
+  .product__list {
+      list-style-type: none;
+  }
+  .product__link {
+      text-decoration: none;
+      color: #6f6e6e;
+      font-family: Lato;
+      font-size: 14px;
+  }
+  .product__link:hover {
+      color:#ef5b70;
+  }
+
+.filter_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_right {
+    margin-left: 70px;
+}
+
+.filter__heading {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
+    color: #6f6e6e;
+    text-transform: uppercase;
+}
+
+.filter_list_flex {
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    justify-content: space-between;
+
+}
+.filter__list {
+    display: block;
+    list-style-type: none;
+
+}
+.filter__link {
+    text-decoration: none;
+    font-family: Lato;
+    font-size: 14px;
+    color:#6f6e6e;
+}
+.filter__link:hover {
+    color:#ef5b70;
+}
+
+.filter_size {
+    display: flex;
+    width: 190px;
+    flex-wrap: wrap;
+    margin-bottom: 23px;
+}
+.size__checkbox {
+    display: block;
+
+}
+label{
+    display: block;
+    padding-right: 15px;
+}
+
+.range_price {
+    display: flex;
+    justify-content: space-between;
+}
+.price_label {
+    font-family: Lato;
+    font-size: 14px;
+    color: #6f6e6e;
+}

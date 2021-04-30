@@ -1,0 +1,33 @@
+.nav_bread {
+    background-color:#f8f3f4 ;
+}
+.nav_flex {
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.bread_link {
+    text-decoration: none;
+    color: #636363;
+}
+.bread_link:hover {
+    color:#f16d7f;
+}
+
+.bread_link_active {
+    text-decoration: none;
+    color: #f16d7f;
+}
+.bread_link_active:hover {
+    color:#f16d7f;
+   
+}
+
+.current_page {
+    font-size: 24px;
+    font-weight: 900;
+    color:#f16d7f;
+}

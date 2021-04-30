@@ -1,0 +1,147 @@
+@import url(_header.css);
+@import url(_menu.css);
+@import url(_breadcrump.css);
+@import url(_subscribe.css);
+@import url(_footer.css);
+
+* {
+    margin:0;
+    padding: 0;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+.order_details {
+    margin-top: 90px;
+}
+ 
+.accordeon {
+    width: 1140px;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+}
+.accordeon_heading {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    color: #222222;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: block;
+}
+.accordeon_heading::-webkit-details-marker {
+    display: none;
+  }
+
+.register_flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 79px;
+    margin-left: 35px;
+}
+
+.bigger_txt { 
+  font-family: Lato;
+  font-size: 13px;
+  color:#222222; 
+  text-transform: uppercase;
+}
+.smaller_txt {
+ font-family: Lato;
+ font-size: 13px;
+ color:#b3b2b2; 
+ padding-top: 15px;
+}
+
+.radio {
+    margin-top: 34px;
+}
+
+.radio_button {
+    padding-bottom:20px;
+}
+.checkout {
+    font-family: Lato;
+    font-size: 12px;
+    color: #222222;
+    text-transform: uppercase;
+}
+
+.continue {
+    margin-top: 50px;
+    padding: 19px 54px;
+    font-family: Lato;
+    font-size: 14px;
+    color:#4a4a4a;
+    text-transform: uppercase;
+}
+.continue:hover {
+    color:#ffff;
+    background-color: #f16d7f;
+}
+.email_txt {
+    margin-top: 40px;
+}
+.register_txt {
+    margin-top: 34px;
+}
+.input {
+    display: block;
+    width: 320px;
+    height: 45px;
+    border-color:#eaeaea;
+    padding-left:10px;
+}
+
+.text_pass {
+    margin-top: 23px;
+}
+.info_link {
+    font-family: Lato;
+    font-size: 13px; 
+    color: #b3b2b2;
+    text-decoration: none;
+}
+.info_link:hover {
+    color:#f16d7f;
+}
+.fa-asterisk {
+    font-size: 6px;
+    color: red;
+    vertical-align:super;
+}
+.required {
+    color:red;
+}
+.login {
+    margin-right: 300px;
+}
+.login_button {
+    margin-top: 40px;
+    padding: 19px 54px;
+    font-family: Lato;
+    font-size: 14px;
+    color:#4a4a4a;
+    text-transform: uppercase;
+}
+.login_button:hover {
+    color:#ffff;
+    background-color: #f16d7f;
+}
+.forgot_pass { 
+    text-decoration: none;
+    font-family: Lato;
+    font-size: 14px;
+    color: #222222;
+    padding-left: 32px;
+}
+.forgot_pass:hover {
+    color:#f16d7f;
+}
+.subscribe {
+    margin-top: 93px;
+}
